@@ -1,33 +1,56 @@
-def group_by_city(scores_dataset):
-    cities = dict()
+# def walk(steps):
+#     if steps == 0:
+#         print("STOP")
+#         return
+#     walk(steps-1)
+#     print(steps)
+#
+# walk(3)
 
-    for student in scores_dataset:
-        city = student["City"]
-        name = student["Name"]
-        if city not in cities:
-            cities[city] = []
-        cities[city].append(name)
-
-    return cities
-
-
-def busy_cities(scores_dataset):
-    cities = group_by_city(scores_dataset)
-
-    busy = []
-    maxpop = 0
-    for city in cities:
-        if len(cities[city]) > maxpop:
-            maxpop = len(cities[city])
-            busy = [city]
-        elif len(cities[city]) == maxpop:
-            busy.append(city)
-
-    return busy
+# s = "one,four,one,six,five,one,four,two,nine,one"
+# L = s.split(',')
+# L = input().split(',')
+# freq = dict()
+# for word in L:
+#     freq[word] = freq.get(word, 0) + 1
+#
+# print(freq)
+# print(freq.get('one'))
 
 
-"""
-print(HE::EE:)
-print("hello")
+# animals = ['lion', 'tiger','monkey','elephant','frog']
+# filtered_animals = [animal.title() for animal in animals ]
+# print(filtered_animals)
 
-"""
+# n = 10
+# def fibo(n):
+#     if n in [1,2]:
+#         return 1
+#     return n-1 + n-2
+#19
+# l = [fibo(i) for i in range(1,n)]19
+# print(l)
+
+# L = [1, 2, 3, 2, 1, 4]
+#
+# # def uniq(L):
+# #     s = set(L)
+# #     return s
+# # print(uniq(L))
+#
+# def uniq(L):
+#     if len(L) == 1:
+#         return L
+#     if L[0] in L[1: ]:
+#         return uniq(L[1: ])
+#     else:19
+#         return [L[0]] + uniq(L[1: ])
+# print(uniq(L))
+
+
+
+l = [True, False,False,True,False,False,True,False,False,True,False,False,True,False,False,True,False,False,True,False,]
+n = [1 if i == True else 0 for i in l ]
+print(n)
+
+print (__name__)

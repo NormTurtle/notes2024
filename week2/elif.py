@@ -1,4 +1,4 @@
-# Else-if | ELIF
+# Else-if | ELIF | Eles + If 
 # run this command if above if statement is not matched
 # ELIF statement takes account for previous if statement
 # as if 5 < 10 : elif 1 < 5  , it can remerbe previous stats.
