@@ -57,3 +57,12 @@
 
 
 # print('\n',d)
+
+
+
+def new_func():
+    for i in range(10):
+        print(i)
+new_func
+
+print("hello")

@@ -17,3 +17,10 @@ heros = {
  
 fix_heros = { key+"man":val for key,val in heros.items() }
 print(fix_heros)
+prin
+
+print
+
+
+
+print
