@@ -48,9 +48,12 @@
 # print(uniq(L))
 
 
+L = input().split(',')
+# ['one', 'four', 'one', 'six', 'five', 'one', 'four', 'two', 'nine', 'one']
+d = dict()
 
-l = [True, False,False,True,False,False,True,False,False,True,False,False,True,False,False,True,False,False,True,False,]
-n = [1 if i == True else 0 for i in l ]
-print(n)
+for words in L:
+    d[words] = 0
 
-print (__name__)
+
+print('\n',d)
