@@ -48,12 +48,12 @@
 # print(uniq(L))
 
 
-L = input().split(',')
-# ['one', 'four', 'one', 'six', 'five', 'one', 'four', 'two', 'nine', 'one']
-d = dict()
+# L = input().split(',')
+# # ['one', 'four', 'one', 'six', 'five', 'one', 'four', 'two', 'nine', 'one']
+# d = dict()
 
-for words in L:
-    d[words] = 0
+# for words in L:
+#     d[words] = 0
 
 
-print('\n',d)
+# print('\n',d)
