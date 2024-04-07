@@ -58,11 +58,10 @@
 
 # print('\n',d)
 
-
-
-def new_func():
-    for i in range(10):
-        print(i)
-new_func
-
-print("hello")
+n = 5
+b = 4
+def mul(a,b):
+    if b == 1:
+        return a
+    return a + mul(a,b-1)
+print(mul(n,b))
