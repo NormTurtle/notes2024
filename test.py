@@ -27,7 +27,7 @@
 #     if n in [1,2]:
 #         return 1
 #     return n-1 + n-2
-#19
+# 19
 # l = [fibo(i) for i in range(1,n)]19
 # print(l)
 
@@ -60,8 +60,12 @@
 
 n = 5
 b = 4
-def mul(a,b):
+
+
+def mul(a, b):
     if b == 1:
         return a
-    return a + mul(a,b-1)
-print(mul(n,b))
+    return a + mul(a, b - 1)
+
+
+print(mul(n, b))

@@ -8,7 +8,7 @@ d = { 'a': 1 , 'b': 2 , 'c': 3  }
 print(d['c']) # 3
 
 # access values using *get(key)* the safe way if not found wont throw error
-# syntax : dict_name.get(key)
+# syntax : dict_name.get(key)   # return value else return NONE
 print(d.get('c'))  # 3
 
 # access using *keys()*
