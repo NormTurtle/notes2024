@@ -4,3 +4,6 @@
 
 # u can't directly turn Str to float/floor u need to convert str to int then convert then to floor or float
 
+
+
+# a method is a `function ` of class
